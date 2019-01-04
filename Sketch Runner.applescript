@@ -9,4 +9,4 @@ tell application "Sketch"
 	end repeat
 end tell
 
-do shell script "sntp -sS time.apple.com" with administrator privileges
+do shell script "sntp -sS pool.ntp.org" with administrator privileges
